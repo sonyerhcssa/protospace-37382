@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :prototypes do
     resources :comments
   end
-  
-  resources :users
+  #devise_for :usersの記述がある為、いらない。
+  # resources :users
 
 end
